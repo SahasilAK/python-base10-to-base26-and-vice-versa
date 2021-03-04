@@ -12,16 +12,12 @@ def base10_valueGenerator(input_string, data):
         val2 =[]
 
         for i in res1:
-            if i in data:
-                val1.append(data[i])
-            else:
-                val1.append(alaphabets_dict[i])
+            val1.append(data[i])
+            
 
-        for i in res2:
-            if i in data:
-                val2.append(data[i])
-            else:
-                val2.append(alaphabets_dict[i])
+        for i in res2:            
+            val2.append(data[i])
+           
 
         the_base10_split1 = 0
         the_base10_split2 = 0
